@@ -16,7 +16,8 @@ async def bot_sys_stats():
 Uptime: {get_readable_time((bot_uptime))}
 CPU: {cpu}%
 RAM: {mem}%
-Disk: {disk}%'''
+Disk: {disk}%
+© @StarterBotz'''
     return stats
 
 
@@ -26,7 +27,7 @@ async def ping(_, message):
     start = datetime.now()
     response = await message.reply_photo(
         photo="cache/pong.jpg",
-        caption=">> ZPong!"
+        caption=">> Pong!\n© @StarterBotz"
     )
     end = datetime.now()
     resp = (end - start).microseconds / 1000
