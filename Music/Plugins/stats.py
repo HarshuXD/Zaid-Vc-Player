@@ -49,6 +49,7 @@ async def gstats(_, message):
     free = str(free)
     msg = f"""
 **Global Stats of Music Bot**:\n
+[+] **Bot By -» @StarterBotz**\n
 [•] <u>__**System Stats**__</u>
 **Music Uptime:** {uptime}
 **System Process:** Online
@@ -59,6 +60,8 @@ async def gstats(_, message):
 **Python Version:** {pyver.split()[0]}
 **Pyrogram Version:** {pyrover}
 **PyTgCalls Version:** {pytg_version}
+**Owner:** @Harshu_xD\n
+**© @StarterBotz**
 
 [•] <u>__**Bot Stats**__</u>
 **Modules Loaded:** {modules_count}
@@ -66,6 +69,9 @@ async def gstats(_, message):
 **GBanned Users:** {blocked}
 **Sudo Users:** {j}
 **Allowed Chats:** {len(served_chats)}
+**Owner:** @Harshu_xD\n
+**© @StarterBotz**
+
 
 """
     served_chats.pop(0)
