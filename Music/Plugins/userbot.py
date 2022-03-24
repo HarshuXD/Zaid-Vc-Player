@@ -18,7 +18,7 @@ async def ubblock(_, message: Message):
     await ZAIDUB.block_user(shit_id)
     await gonna_block_u.edit("`Successfully Blocked This User`")
   except Exception as lol:
-    await gonna_block_u.edit(f"`Can't Block This Guy! May be this is durov?` \n\n**Error:** `{lol}`")
+    await gonna_block_u.edit(f"`Can't Block This Guy! May be this is Harshu_xD?` \n\n**Error:** `{lol}`")
 
 
 # To Unblock User That Already Blocked
@@ -62,5 +62,5 @@ async def ubkickme(_, message: Message):
 async def ubalive(_, message: Message):
   alive_msg = await message.edit_text("`Processing...`")
   alive_pic = "https://telegra.ph/file/f8a9af2ad589946130da1.jpg"
-  await message.reply_photo(alive_pic, caption=f"**☑️ Zaid Music Userbot is Alive 🌀** \n\n**🤖 Version** \n ↳**Bot Version:** `2.5` \n ↳**Userbot Version:** `0.0` \n\n**🐬 Info**\n ↳**Music Bot:** @{BOT_USERNAME} \n ↳**Owner:** [Click Here](tg://user?id=1669178360)")
+  await message.reply_photo(alive_pic, caption=f"**☑️ Starter Music Userbot is Alive 🌀** \n\n**🤖 Version** \n ↳**Bot Version:** `2.5` \n ↳**Userbot Version:** `0.0` \n\n**🐬 Info**\n ↳**Music Bot:** @{BOT_USERNAME} \n ↳**Owner:** [Click Here](tg://user?id=5151474939)\n\n© @StarterBotz")
   await alive_msg.delete()
